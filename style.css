@@ -1,0 +1,128 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header,#navbar
+{
+    background-color: #282828;
+    color:white;
+    text-align: center;
+    padding: 30px ;
+}
+header .container h1
+{
+    margin-bottom:15px ;
+}
+#navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+#about{
+    color: #504c4c;
+    text-align: center;
+    padding: 20PX;
+    margin: 10PX;
+}
+#about h2{
+    margin-bottom:  20px;
+    color:#272525;
+}
+#about p{
+    color:rgb(88, 84, 84);
+
+}
+#about h2,p{
+text-align: center;
+width: 70%;
+margin: 20px auto;
+
+}
+#about img{
+    border-radius: 50% 50%;
+    width: 150px;
+    height: 150px;
+ 
+}
+#skills{
+    background-color: #F4F4F4;
+    text-align: center;
+    padding: 20PX;
+}
+#skills h2{
+    margin-bottom: 20px;
+}
+#skills ul{
+    list-style: none;
+}
+#skills ul li{
+
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 13px;
+    padding: 10px 15px;
+     background-color: white;
+     box-shadow: #e4d4d4 2px 2px 2px 2px;
+     border-radius:2px ;
+     margin-bottom: 10px;
+     font-weight: bold;
+     color: #272525;
+
+}
+#projects{
+
+    background-color:#F9F9F9;
+    text-align: center;
+    padding: 20PX;
+    color: #272525;
+}
+#projects h2{
+    margin-bottom: 20px;
+}
+#projects .project-item{
+
+    box-shadow: #e4d4d4 2px 2px 2px 2px;
+    border-radius: 2px;
+    padding: 10px 15px;
+    width: 20%;
+    background-color: white;
+    display: inline-block;
+    margin: 20px ;
+
+}
+#projects .project-item p{
+    font-size: 12px;
+    width: 100%;
+
+}
+#projects .project-item a{
+color: #0000FF;
+    text-decoration: none ;
+    font-size: 14px;
+    font-weight: bold;
+}
+#contact{
+    background-color: #F4F4F4;
+    color:rgb(70, 68, 68);
+    text-align: center;
+    
+    padding: 30px ;
+}
+#contact a{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 1px;  
+}
